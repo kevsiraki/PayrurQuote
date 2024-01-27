@@ -1,5 +1,7 @@
 # PayrurQuote
 
+![Screenshot](screenshot.png)
+
 PayrurQuote is a Python project that leverages Beautiful Soup and the Google Crawler library to fetch quotes by the famous Armenian poet, Payrur Sevak, from various sources on the internet. The fetched quotes undergo a review process and are stored in a MariaDB database. This database is then accessed by a PHP MVC API, which is part of a LEMP stack (Linux, Nginx, MariaDB, PHP).
 
 ## Requirements
@@ -28,9 +30,9 @@ PayrurQuote is a Python project that leverages Beautiful Soup and the Google Cra
 
 The API routes are as follows:
 
-- `quotes/`: fetches all quotes.
-- `quotes/<id>`: fetches a single quote by id.
-- `quotes/random`: fetches a single random quotes.
+- `quotes/`: Fetches all quotes.
+- `quotes/<id>`: Fetches a single quote by ID.
+- `quotes/random`: Fetches a single random quotes.
 
 The frontend provides a simple UI with the following features:
 
