@@ -17,8 +17,6 @@
 
     <div id="quote-container"></div>
 
-
-
     <button id="new-quote-btn">Նոր Մեջբերում</button>
     <button id="mode-toggle"></button>
     <br>
