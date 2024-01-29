@@ -1,3 +1,6 @@
+<?php 
+	//For Git indexing.
+?>
 <!DOCTYPE html>
 <html lang="hy">
 
