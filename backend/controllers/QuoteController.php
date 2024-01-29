@@ -75,12 +75,18 @@ class QuoteController
             $this->defaultResponse();
         }
     }
-
+	
+	/**
+     * Retrieve a random quote and respond with a JSON-encoded representation.
+     */
     public function getRandomQuote()
     {
         echo json_encode($this->quoteModel->getRandomQuote(), JSON_UNESCAPED_UNICODE);
     }
 
+	/**
+     * If the route is not found, respond with a JSON-encoded representation.
+     */
     public function defaultResponse()
     {
         echo json_encode(['message' => 'Invalid endpoint']);

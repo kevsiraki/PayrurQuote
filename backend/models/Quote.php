@@ -33,6 +33,12 @@ class Quote
         $query->execute(['id' => $id]);
         return $query->fetch(PDO::FETCH_ASSOC);
     }
+	
+	/**
+     * Retrieve a random quote from the database.
+     *
+     * @return array|null The quote as an associative array or null if not found.
+     */
     public function getRandomQuote()
     {
         // Get the total number of quotes in the database
